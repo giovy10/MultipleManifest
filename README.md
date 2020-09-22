@@ -1,7 +1,7 @@
 # MultipleManifest
 ## DIFFERENT BACKGROUND, DIFFERENT APK, DIFFERENT MANIFEST, ONLY ONE APP
 
-In this project, i create 2 different manifest, except the main, under the folder green and red(the main is inside the folder main).
+In this project, i create 2 different manifest, in addiction to the main, under the folder green and red(the main is inside the folder main).
 Then in gradle I added this code: 
 
 `flavorDimensions "version"
