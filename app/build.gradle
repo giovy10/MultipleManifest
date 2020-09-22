@@ -27,8 +27,8 @@ android {
     productFlavors {
         green {
             dimension "version"
-            applicationIdSuffix ".green"
-            versionNameSuffix "-green"
+            applicationIdSuffix ".green" // add suffix .green at applicationId "com.example.multiplemanifest"
+            versionNameSuffix "-green" // add suffix .green at versionName "1.0"
         }
         red {
             dimension "version"
