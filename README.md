@@ -28,9 +28,8 @@ Then in gradle I added this code:
     
    And added attribute theme in the other 2 manifest (red and green):
     
-   `android:theme="@style/AppTheme.Red"
-   
-   android:theme="@style/AppTheme.Green"`
+   android:theme="@style/AppTheme.Red"   
+   android:theme="@style/AppTheme.Green"
    
    Now when launch the build green, the background is green and with the build red, the background is red.
    
