@@ -40,6 +40,12 @@ android {
             applicationIdSuffix ".green" // add suffix .green at applicationId "com.example.multiplemanifest"
             versionNameSuffix "-green" // add suffix .green at versionName "1.0"
         }
+
+        blue {
+            dimension "version"
+            applicationIdSuffix ".blue" // add suffix .green at applicationId "com.example.multiplemanifest"
+            versionNameSuffix "-blue" // add suffix .green at versionName "1.0"
+        }
     }
 }
 
