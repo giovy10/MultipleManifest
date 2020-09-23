@@ -25,15 +25,20 @@ android {
 
     flavorDimensions "version"
     productFlavors {
-        green {
+        yellow {
             dimension "version"
-            applicationIdSuffix ".green" // add suffix .green at applicationId "com.example.multiplemanifest"
-            versionNameSuffix "-green" // add suffix .green at versionName "1.0"
+            applicationIdSuffix ".yellow" // add suffix .green at applicationId "com.example.multiplemanifest"
+            versionNameSuffix "-yellow" // add suffix .green at versionName "1.0"
         }
         red {
             dimension "version"
             applicationIdSuffix ".red"
             versionNameSuffix "-red"
+        }
+        green {
+            dimension "version"
+            applicationIdSuffix ".green" // add suffix .green at applicationId "com.example.multiplemanifest"
+            versionNameSuffix "-green" // add suffix .green at versionName "1.0"
         }
     }
 }
