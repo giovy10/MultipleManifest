@@ -35,12 +35,12 @@ Then in gradle I added this code:
         }
     }`
    
-   And now i have 2 different build variant (red and green).
+   And now i have 2 different build variant (red, yellow, blue and green).
    In the main manifest remove the attribute 
    
     `android:theme="@style/AppTheme"/>`
     
-   And added attribute theme in the other 2 manifest (red and green):
+   And added attribute theme in the other 4 manifest (red, yellow, blue and green):
     
    `android:theme="@style/AppTheme.Red"`
    
